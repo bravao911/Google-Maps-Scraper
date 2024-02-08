@@ -1,6 +1,6 @@
 # Zubdata - Google Maps Scraper
 
-## Version: 2.0.0
+## Version: 2.0.1
 
 ## Note: 
 **Our all scrapers are working, if you find any issue or bug please open an issue with the detail of issue. We will try to resolve it quickly for you.**

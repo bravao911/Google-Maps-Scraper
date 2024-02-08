@@ -115,7 +115,7 @@ class Backend:
             allInfoBars = soup.find_all("div", class_="AeaXub")
 
             for infoBar in allInfoBars:
-                link = infoBar.find("img").get("src")
+                link = infoBar.find("img").get("src");
                 text = infoBar.text
 
                 """Below three conditons are used to comapre fetched links to compare them with
@@ -169,10 +169,10 @@ class Backend:
             To understand it , kindly see its use in parsing
             """
             self.comparingLinks = {
-                "locationLink": """//www.gstatic.com/images/icons/material/system_gm/1x/place_gm_blue_24dp.png""",
-                "phoneLink": """//www.gstatic.com/images/icons/material/system_gm/1x/phone_gm_blue_24dp.png""",
-                "websiteLink": """//www.gstatic.com/images/icons/material/system_gm/1x/public_gm_blue_24dp.png""",
-            }
+              "locationLink": "//www.gstatic.com/images/icons/material/system_gm/2x/place_gm_blue_24dp.png",
+              "phoneLink": "//www.gstatic.com/images/icons/material/system_gm/2x/phone_gm_blue_24dp.png",
+              "websiteLink": "//www.gstatic.com/images/icons/material/system_gm/2x/public_gm_blue_24dp.png",
+              }
 
             """
             In this empty list our records will be append, we will make pandas dataframe from it
