@@ -30,6 +30,13 @@ To get started with the Google Maps Scraper, follow these steps:
    ```shell
    pip install -r requirements.txt
    ```
+3. Before start using it you can change its optional settings in ```Google map scraper\scraper\settings.py```  There are three options that you can change:
+
+- OUTPUT_PATH: It is the path where your output file will be save. Default it is “.” It will save the file in the root directory.
+- DRIVER_EXECUTABLE_PATH: It is the path of chrome driver. Use it only when you already have installed chrome driver. By default it is None, mean scraper will automatically install the driver.
+
+4. Launch the Google Maps Scraper GUI by this command:
+```python "Google map scraper\starter.py" start```
 
 `For further helping docs please visit our` [documentation](https://zubdata.com/tools/google-maps-scraper/) `page`
 
